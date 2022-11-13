@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: stash
+  annotations:
+    corp.com/allowed-registries:
+      - docker.io
+  labels:
+    purpose: production 
+spec: {}
+status: {}
