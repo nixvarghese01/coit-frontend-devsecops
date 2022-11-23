@@ -11,7 +11,7 @@ resources:
   - frontend-clusterrolebinding-list-pods.yaml
   - backend1-pvc.yaml
   - fast-good-for-db.yaml
-  - Issuers/letsencrypt-prod-issuer.yaml
+  - Issuers/letsencrypt-stage-issuer.yaml
   - Roles/admin-pods.yaml
   - Roles/list-pods.yaml
   - Roles/modify-pods.yaml
