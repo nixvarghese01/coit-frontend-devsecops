@@ -23,7 +23,7 @@ spec:
     spec:
       serviceAccountName: frontend-service-account
       containers:
-        - image: nixvarghese03/frontend:v1
+        - image: nixvarghese03/devsecop-frontend:1.0.0
           imagePullPolicy: IfNotPresent                         # 7
           name: frontend
           livenessProbe:

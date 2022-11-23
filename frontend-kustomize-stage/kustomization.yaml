@@ -32,9 +32,9 @@ commonLabels:
   managed-by: kustomize
 Images:
 
-  - newName: nixvarghese03/coit-simple-micro-GA
-    newtag: latest
-    name: nixvarghese03/coit-simple-micro-GA
+  - newName: nixvarghese03/devsecop-frontend
+    newtag: 1.0.0
+    name: nixvarghese03/devsecop-frontend
 
 configMapGenerator:
   - name: frontend-map
